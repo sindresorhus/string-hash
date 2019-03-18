@@ -26,7 +26,7 @@ stringHash('👌😎');
 //=> 879086135
 ```
 
-It returns a positive integer.
+It returns the hash as a positive integer.
 
 
 ## License
