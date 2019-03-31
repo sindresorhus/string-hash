@@ -1,6 +1,6 @@
 {
 	"name": "@sindresorhus/string-hash",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"description": "Get the hash of a string",
 	"license": "MIT",
 	"repository": "sindresorhus/string-hash",
