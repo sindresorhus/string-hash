@@ -1,1 +1,3 @@
-export {default} from '@sindresorhus/fnv1a';
+import fnv1a = require('@sindresorhus/fnv1a');
+
+export = fnv1a;
