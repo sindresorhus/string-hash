@@ -33,7 +33,7 @@
 		"function"
 	],
 	"dependencies": {
-		"@sindresorhus/fnv1a": "^1.1.0"
+		"@sindresorhus/fnv1a": "^1.2.0"
 	},
 	"devDependencies": {
 		"ava": "^1.4.1",
