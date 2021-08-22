@@ -6,29 +6,22 @@ Uses the non-cryptographic hash function [FNV-1a](https://github.com/sindresorhu
 
 Similar to Java's [`String#hashCode()`](https://en.m.wikipedia.org/wiki/Java_hashCode()).
 
-
 ## Install
 
 ```
 $ npm install @sindresorhus/string-hash
 ```
 
-
 ## Usage
 
 ```js
-const stringHash = require('@sindresorhus/string-hash');
+import stringHash from '@sindresorhus/string-hash';
 
 stringHash('🦄🌈');
-//=> 582881315
+//=> 2868248295
 
 stringHash('👌😎');
-//=> 879086135
+//=> 2903279002
 ```
 
 It returns the hash as a positive integer.
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

@@ -1,3 +1,17 @@
-import fnv1a = require('@sindresorhus/fnv1a');
+/**
+Get the hash of a string.
 
-export = fnv1a;
+@returns The hash as a positive integer.
+
+@example
+```
+import stringHash from '@sindresorhus/string-hash';
+
+stringHash('🦄🌈');
+//=> 2868248295
+
+stringHash('👌😎');
+//=> 2903279002
+```
+*/
+export default function stringHash(string: string): number;

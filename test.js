@@ -1,10 +1,11 @@
+/* eslint-disable unicorn/numeric-separators-style */
 import test from 'ava';
-import stringHash from '.';
+import stringHash from './index.js';
 
 test('main', t => {
 	t.is(stringHash(''), 2166136261);
-	t.is(stringHash('🦄🌈'), 582881315);
-	t.is(stringHash('👌😎'), 879086135);
+	t.is(stringHash('🦄🌈'), 2868248295);
+	t.is(stringHash('👌😎'), 2903279002);
 
 	t.is(stringHash('h'), 3977000791);
 	t.is(stringHash('he'), 1547363254);

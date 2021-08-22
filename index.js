@@ -1,8 +1,5 @@
-'use strict';
-const fnv1a = require('@sindresorhus/fnv1a');
+import fnv1a from '@sindresorhus/fnv1a';
 
-const stringHash = string => fnv1a(string);
-
-module.exports = stringHash;
-// TODO: remove this in the next major version
-module.exports.default = stringHash;
+export default function stringHash(string) {
+	return Number(fnv1a(string));
+}

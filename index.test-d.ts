@@ -1,4 +1,4 @@
 import {expectType} from 'tsd';
-import stringHash = require('.');
+import stringHash from './index.js';
 
 expectType<number>(stringHash('🦄🌈'));
