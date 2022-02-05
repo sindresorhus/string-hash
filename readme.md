@@ -8,8 +8,8 @@ Similar to Java's [`String#hashCode()`](https://en.m.wikipedia.org/wiki/Java_has
 
 ## Install
 
-```
-$ npm install @sindresorhus/string-hash
+```sh
+npm install @sindresorhus/string-hash
 ```
 
 ## Usage
@@ -25,3 +25,9 @@ stringHash('👌😎');
 ```
 
 It returns the hash as a positive integer.
+
+## FAQ
+
+#### Why is this just a small wrapper around the `fnv1a` package?
+
+[Answer.](https://github.com/sindresorhus/string-hash/issues/6)
